@@ -348,6 +348,17 @@ section {
     text-align: center;
 }
 
+.project-container {
+    padding: 1.5rem;
+    flex: 1;
+    background: var(--primary-color-2);
+    border-radius: 2rem;
+    border: var(--button-border);
+    border-color: var(--container-border);
+    text-align: center;
+    height: 400px;
+}
+
 .section-container {
     gap: 4rem;
     height: 80%;
@@ -424,6 +435,7 @@ article .icon {
 .project-btn {
     color: var(--secondary-color);
     border-color: var(--container-border);
+    
 }
 
 /* CONTACT */
